@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Document</title>
+    <style>
+        dl>* {
+            padding:10px;
+            border:1px solid lightcoral}
+        dl>*>* {
+            padding:10px;
+            border:1px solid lightgreen}
+        figure, figure>* {
+            padding:10px;
+            border:10px solid lightgreen}
+        img {border-color: red;}
+        .test>*{
+            border:1px solid red}
+        blockquote>* {border: 10px solid lightskyblue}
+    </style>
+</head>
+
+<body>
+    <blockquote cite="http://www.naver.com">
+        <p>네이버에서 가져온것으로 널 죽이겠다.</p>
+    </blockquote>
+    <div class="test">
+        <p>css로 글자 색을<br> 바꿔봅시다</p>
+        <pre>
+            body{ color:red}
+            내용추가
+        </pre>
+    </div>
+    <figure>
+        <figcaption>
+            나비에 관한 설명입니다.
+        </figcaption>
+        <img src="../html_study/img/butterfly.jpg" alt="나비" width="20%" />
+    </figure>
+    <hr />
+    <dl>
+        <!-- 여러 개의 용어와 하나의 정의 -->
+        <!-- 하나의 용어와 여러개의 정의 -->
+        <!-- 여러개의 용어와 여러개의 정의 -->
+        <div>
+            <dt>fire fox</dt>
+            <dd>mozila 재단과 수 백명의 자원봉사자가 개발한 무료 오픈소스</dd>
+        </div>
+        <div>
+            <dt>mozila firefox</dt>
+            <dd>붉은 판다, 레서 판다, 랫서 판다, 혹은 "firefox"는 초식성 포유류이다.</dd>
+        </div>
+
+    </dl>
+</body>
+
+</html>
