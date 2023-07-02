@@ -1,0 +1,33 @@
+body {
+    border: 1px solid red
+}
+.box1 {
+    background-color: lightblue;
+    font-size: 2rem;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+.box 1_1 {
+    width: 300px;
+    height:300%;
+    border:1px solid lightcoral;
+}
+.box2 {
+    border:1px solod lightblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+div { border: 1px solid;
+width:50%;
+}
+.box3 {width: 200px;}
+.box4 {width:50%;}
+.box5 {width:50vw; height:30vw;}
+.box5 p {
+    border:1px solid lightgreen;
+}
+.c_3 {
+    height:30%;
+}
