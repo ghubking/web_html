@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth4</title>
+    <style>
+        * {
+            margin:0; padding:0;
+            list-style:none;
+            box-sizing:border-box;
+        }
+        .best {
+            border:1px solid#000;
+            width:1000px; margin:0 auto; overflow:hidden;
+        } 
+        .best li {
+            width:25%; height:200px; float:left;
+        }
+        .best li:nth-child(odd) {background-color: yellow;} /* 홀수 선택자 */
+        .best li:nth-child(even) {background-color: tomato;}/* 짝수 선택자 */
+        .best li:nth-child(3n) {border:3px solid blue} /* n의 배수 --> 3의배수(3,6,9...) */
+    </style>
+</head>
+<body>
+    <ul class="best">
+        <li>
+            <h3>상품명1</h3>
+            <p class="price">10,000원</p>
+            <p class="contents">설명1</p>
+        </li>
+        <li>
+            <h3>상품명2</h3>
+            <p class="price">20,000원</p>
+            <p class="contents">설명2</p>
+        </li>
+        <li>
+            <h3>상품명3</h3>
+            <p class="price">30,000원</p>
+            <p class="contents">설명3</p>
+        </li>
+        <li>
+            <h3>상품명4</h3>
+            <p class="price">40,000원</p>
+            <p class="contents">설명4</p>
+        </li>
+        <li>
+            <h3>상품명5</h3>
+            <p class="price">50,000원</p>
+            <p class="contents">설명5</p>
+        </li>
+        <li>
+            <h3>상품명6</h3>
+            <p class="price">60,000원</p>
+            <p class="contents">설명6</p>
+        </li>
+    </ul>
+</body>
+</html>
