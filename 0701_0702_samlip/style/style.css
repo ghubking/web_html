@@ -1,6 +1,5 @@
 /* header */
 header {
-    background-color:burlywood;
     width:1200px; height:92px;
     margin:0 auto;
 }
@@ -16,7 +15,6 @@ header h1 a img {width:100%;}/* img부모 px */
 width:100% 속성으로 상대값으로 변경하여 부모의 px을 상대적으로
 인식하게 하는 경우가 많다.*/
 header nav {
-    background-color: yellow;
     margin:39px 0 0 234px;
     float:left;
 }
@@ -31,7 +29,6 @@ header nav ul li:last-child a {padding-right:0;}
 /* 활성화 페이지 기준 active class 선택자 작성위치 */
 header nav ul .active a {color:#36b4e5;}
 header .lnb {
-    background-color: chartreuse;
     float:right; margin:39px 20px 0 0;
 }
 header .lnb li {
@@ -61,7 +58,6 @@ main .breadcrumbs_bg {
     border-bottom:1px solid #aaa;*/
 }
 main .breadcrumbs_bg .bread_crumbs {
-    background-color: yellow;
     width:1200px; height:58px;
     margin:0 auto;/* ---> 화면의 가운데 정렬로 */
     text-align:right;  /* float 는 정렬대상 자체에쓰고, 텍스트얼라인은 부모에게 쓴다. */
@@ -74,7 +70,6 @@ main .breadcrumbs_bg .bread_crumbs a {
 }
 main .breadcrumbs_bg .bread_crumbs em {font-weight: 700;}
 main .contents_1 {
-    background-color: crimson;
     width:1200px; padding:70px 0;
     margin:0 auto; text-align: center;
 }
@@ -89,7 +84,7 @@ main .contents_1 p {
     letter-spacing: -0.02em;
 }
 main .c2_bg {background-color: #f1f1f1;}
-main .c2_bg .contents_2 {background-color: aqua;
+main .c2_bg .contents_2 {
     width:1200px; text-align: center;
     margin:0 auto; padding:70px 0;
 }
@@ -99,7 +94,6 @@ main .c2_bg .contents_2 p {
     line-height:35px;
 }
 main .contents_3 {
-    background-color: yellowgreen;
     width:1200px; margin:0 auto; padding:70px 0;
     text-align: center;    
 }
@@ -116,18 +110,53 @@ main .contents_3 h2+p {
     letter-spacing: -0.02em;
 }
 main .contents_3 p:nth-child(2) {margin-bottom:50px;}
-main .c4_bg {
-    background-color:skyblue;
+main .c4_bg {background-color: #f1f1f1;
 }
-main .c4_bg .contents_4 {}
-main .c4_bg .contents_4 h2 {}
-main .c4_bg .contents_4 ul {}
-main .c4_bg .contents_4 ul li {}
-main .c4_bg .contents_4 ul li h3 {}
-main .c4_bg .contents_4 ul li p {}
+main .c4_bg .contents_4 {
+    width: 1200px; margin:0 auto; padding:70px;
+    text-align: center;
+}
+main .c4_bg .contents_4 h2 {
+    font-size: 2.074rem;
+    padding:70px 0 60px 0;
+    letter-spacing: -0.02em; line-height:45px;
+}
+
+/* goal ul-li */
+main .c4_bg .contents_4 ul:nth-child(2) {text-align: center;}
+main .c4_bg .contents_4 ul:nth-child(2) li {
+    background-color: #fff;
+    width:250px; height:250px;
+    border-radius:50%;
+    display:inline-block; 
+    line-height:250px;
+    font-size: 2.074rem; letter-spacing: -0.02em;
+    margin-left:-15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+main .c4_bg .contents_4 ul:nth-child(2) li:nth-child(1) {
+    background-color: #36b4e5;
+}
+main .c4_bg .contents_4 ul:nth-child(2) li:nth-child(3) {
+    background-color: #f3c300;
+}
+/* strategy il-li */
+main .c4_bg .contents_4 ul:nth-child(4) {text-align:center;}
+main .c4_bg .contents_4 ul:nth-child(4) li {
+    background-color: #fff;
+    width:180px; height:180px;
+    display:inline-block;
+    border-radius: 50%; 
+    padding-top: 61px;
+    margin-left: -10px;
+    /* box-shadow:X Y Blur Colors; */
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+main .c4_bg .contents_4 ul:nth-child(4) li h3 {}
+main .c4_bg .contents_4 ul:nth-child(4) li p {}
 /* footer */
 footer {}
-footer .f_top {background-color: coral;
+footer .f_top {
     width:1200px; height:60px;
     margin:0 auto;
     padding-top:13px;
@@ -151,7 +180,7 @@ footer .f_top .site {
     /* margin: 13px 20px 0 0; */
  
 }
-footer .f_top .site li {background-color: yellow;
+footer .f_top .site li {
     float:left;
     border: 1px solid #aaa;
     margin-right:10px;
@@ -164,7 +193,7 @@ footer .f_top .site li a {
     font-weight: 500;
     letter-spacing: -0.02em;
 }
-footer .f_btm {background-color: chartreuse;
+footer .f_btm {
     width:1200px;
     margin:0 auto; padding:70px 0; 
 }
