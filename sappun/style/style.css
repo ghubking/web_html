@@ -1,0 +1,68 @@
+/* header */
+header {}
+header .header_top_bg {}
+header .header_top_bg a {}
+header .header_top {}
+header .header_top h1 {}
+header .header_top h1 a {}
+header .header_top h1 a img {}
+header .header_top .lnb {}
+header .header_top .lnb .lnb_left {}
+header .header_top .lnb .lnb_left ul {}
+header .header_top .lnb .lnb_left ul li {}
+header .header_top .lnb .lnb_left ul li a {}
+header .header_top .lnb .lnb_left ul li span {}
+header .header_top .lnb .lnb_right {}
+header .header_top .lnb .lnb_right ul {}
+header .header_top .lnb .lnb_right ul li {}
+header .header_top .lnb .lnb_right ul li a {}
+header .header_top .lnb .lnb_right ul li a img {}
+header .header_top nav {}
+header .header_top nav ul {}
+header .header_top nav ul li {}
+header .header_top nav ul li a {}
+header .header_top nav ul li span {}
+header .header_top nav ul li span a {}
+/* snb */
+.snb {}
+.snb a {}
+.snb a img {}
+/* main */
+main {}
+main .main_ads {}
+main .main_ads a {}
+main .main_ads a img {}
+main .company_info {}
+main .company_info ul {}
+main .company_info ul li {}
+main .company_info ul li a {}
+main .company_info ul li a img {}
+main .weekly_best {}
+main .weekly_best h2 {}
+main .weekly_best .item {}
+main .weekly_best .item li {}
+main .weekly_best .item li a {}
+main .weekly_best .item li a img {}
+main .weekly_best .item li h3 {}
+main .weekly_best .item li p {}
+main .weekly_best .item li p em {}
+main .weekly_best .item li .size {}
+main .weekly_best .item li .size p {}
+main .weekly_best .item li .size .tag_icon {}
+main .weekly_best .item li .size .tag_icon span:nth-child(1) {}
+main .weekly_best .item li .size .tag_icon span:nth-child(2) {}
+main .sappun_made {}
+main .sappun_made img {}
+main .sappun_made h2 {}
+main .sappun_made p {}
+main .sappun_made p span {}
+main .sappun_made p span a {}
+/* footer */
+footer {}
+footer .footer_wrap {}
+footer .footer_wrap .fnb {}
+footer .footer_wrap .fnb li {}
+footer .footer_wrap .fnb li a {}
+footer .footer_wrap address {}
+footer .footer_wrap address p {}
+footer .footer_wrap address p br {}
