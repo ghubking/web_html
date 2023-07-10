@@ -1,0 +1,414 @@
+/* pop up */
+#top {
+    position:fixed; right:50px; bottom:50px;
+    width:34px; height:34px;
+}
+#top img {width:100%;}
+/* all layout */
+header,
+main .visual,
+main .service,
+main .bnr_bg .bnr,
+main .board,
+main .field_info,
+main .news,
+footer {
+    background-color: aqua;
+    width:1152px; margin:0 auto;
+}
+/* header */
+header {
+
+}
+/* header-h top */
+header #h_top {
+    background-color: yellow;
+    height:48px;
+}
+header #h_top .left {
+    background-color: lime;
+    float:left;
+}
+header #h_top .left h1 {
+    float:left;
+    width:110px; height:28px;
+    padding-top:10px;
+}
+header #h_top .left h1 a {}
+header #h_top .left h1 a img {width:100%;} /* 부모의 너비 100% */
+header #h_top .left nav {
+    float:left;
+}
+header #h_top .left nav ul {}
+header #h_top .left nav ul li {
+    float:left;
+    margin-left:20px;
+}
+header #h_top .left nav ul li a {
+    line-height:48px;
+    letter-spacing: -0.02em;
+}
+header #h_top .right {
+    background-color: pink;
+    float:right;
+}
+header #h_top .right li {
+    float:left;
+    margin-left: 20px;
+}
+header #h_top .right li:nth-child(1) {margin-left:0;}
+header #h_top .right li a {
+    line-height:48px;
+    letter-spacing: -0.02em;
+}
+/* header-h btm */
+header #h_btm {
+    background-color: gray;
+    height:119px;
+}
+header #h_btm h1 {
+    background-color: yellow;
+    float:left;
+    width:150px; height:28px;
+    margin-top:45px; 
+}
+header #h_btm h1 a {}
+header #h_btm h1 a img {width:100%;}
+header #h_btm #search_frm {
+    background-color: greenyellow;
+    float:left;
+    width:369px; height:46px;
+    border:2px solid #1e6cb3;
+    padding:10px 20px 0 ;
+    margin:36.5px 0 0 230.5px
+}
+header #h_btm #search_frm fieldset {border:0;}
+header #h_btm #search_frm fieldset legend {display:none;}
+header #h_btm #search_frm fieldset input {
+    float:left;
+    width:calc(100% - 20px);
+}
+header #h_btm #search_frm fieldset input::placeholder {
+    letter-spacing: -0.02em; color:#1e6cb3;
+}
+header #h_btm #search_frm fieldset #search_btn {
+    float:right;
+    border:0px; background:none;
+    width:20px; height:20px;
+    cursor: pointer;
+}
+header #h_btm #search_frm fieldset #search_btn img {width:100%;}
+header #h_btm .right {
+    background-color: tomato;
+    float:right; margin-top:17.5px;
+
+}
+header #h_btm .right #lang_frm {
+    text-align:right;
+}
+header #h_btm .right #lang_frm fieldset {border:0;}
+header #h_btm .right #lang_frm fieldset legend {display:none;}
+header #h_btm .right #lang_frm fieldset select {
+    font-size:0.813rem; letter-spacing: -0.02em; 
+    width:83px; padding:3px 0;
+    border:1px solid #1e6cb3;
+}
+header #h_btm .right #lang_frm fieldset select option {
+    
+}
+header #h_btm .right #lang_frm fieldset #lang_btn {
+    width:31px; height:29px;
+    background-color: #1e6cb3; color:#fff;
+    border:0; cursor:pointer;
+}
+header #h_btm .right .weather {}
+header #h_btm .right .weather .current_weather {}
+header #h_btm .right .weather .current_weather em {
+    font-size: 2.063rem; font-weight: 500; letter-spacing: -0.02em;
+}
+header #h_btm .right .weather .current_dust {
+    font-size: 0.813rem; letter-spacing: -0.02em;
+}
+/* main */
+main {}
+/* main-1광고배너 */
+main .visual {
+    background-color: gray;
+    overflow:hidden;
+}
+main .visual .left {
+    background-color: aqua;
+    position:relative; /* 겹치는 대상 부모기준 */
+    width:770px; height:350px; float:left;
+}
+main .visual .left img {}
+main .visual .left .close {
+    letter-spacing:-0.02em; font-weight: 500;
+    padding:10px; border-radius:5px;
+    background-color: #1e6cb3; color:#fff;
+    position:absolute; /* 겹치는 대상 */
+    right:10px; bottom:10px;
+}
+main .visual .right {
+    background-color: yellow;
+    width:360px; float:right;
+}
+main .visual .right .covid {
+    position:relative; display:block;
+    width:360px; height:230px;
+    margin-bottom: 10px;
+}
+main .visual .right .covid span {
+    position:absolute;
+    color:#fff; letter-spacing:-0.02em;
+}
+main .visual .right .covid .date {
+    right:20px; top:20px;
+    color:#000;
+
+}
+main .visual .right .covid .data {}
+main .visual .right .covid .data1 { 
+    top:80px; left:83px;
+}
+main .visual .right .covid .data2 {
+    top:80px; right:89px;
+}
+main .visual .right .covid .data3 {
+    bottom:60px; left:60px;
+}
+main .visual .right .covid .data4 {
+    bottom:58px; left:185px;
+}
+main .visual .right .covid .data5 {
+    position:absolute;
+    bottom:60px; right:60px;
+}
+main .visual .right .covid img {}
+main .visual .right .traffic {}
+main .visual .right .traffic img {}
+/* 주요서비스 ~ 새소식 제목 디자인 그룹 */
+/* 정리 후 */
+main section .title {
+    background-color:aquamarine;
+    padding:50px 0 10px;
+    border-bottom:1px solid#aaa;
+    overflow: hidden;
+    }
+main section .title h2 {
+    font-size: 1.44rem; font-weight: 500;
+    letter-spacing: -0.02em;
+    float:left;
+}
+main section .title .site {
+    float:right;
+    border:1px solid#aaa; padding:10px;
+}
+main section .title .more {
+    float:right;
+}
+main section .title .more i {font-size: 30px;}
+/* 정리 전 */
+/* main .sevice  title {}
+main .sevice .title h2 {}
+main .sevice .title .site {}
+main .board .event .title {}
+main .board .event .title h2 {}
+main .board .event .title .more {}
+main .board .festival .title {}
+main .board .festival .title h2 {}
+main .board .festival .title .more {}
+main .board .service .title {}
+main .board .service .title h2 {}
+main .field_info .title {}
+main .field_info .title h2 {}
+main .news .title {}
+main .news .title h2 {}
+main .news .title .more {} */
+/* main-2주요서비스 */
+main .service {}
+main .service  title {}
+main .service .title h2 {}
+main .service .title .site {}
+main .service .contents {
+    padding:20px;
+    overflow: hidden;
+}
+main .service .contents a {
+    float:left;
+    width:9.09%;
+    text-align: center;
+}
+main .service .contents a img {}
+main .service .contents a span {
+    font-size: 0.833rem;
+    letter-spacing: -0.02em;
+    display: block;
+} 
+/* main-3배너 */
+main .bnr_bg {
+    background-color: #eff4f8;
+    padding:50px 0;
+}
+main .bnr_bg .bnr {
+    overflow: hidden;
+}
+main .bnr_bg .bnr a {
+    float:left;
+}
+main .bnr_bg .bnr a img {}
+/* main-4게시판 */
+main .board {overflow: hidden;}
+/* main-4 게시판 그룹모음 */
+main .board > div {
+    width:calc(33.33% - 23px);/* 33.33%는 3개를 나눈값, 23px는 내용들 사이값 */
+    float:left;
+    /* margin-right: 23px; */
+}
+
+main .board > div .title {height:90px;}
+main .board .event {
+    
+}
+main .board .festival {width:33.33% ;margin:0 23px;}
+/* main .board .service {margin-right: 0;} */
+/* main-4게시판 카테고리 */
+main .board div .contents a .adminstrative {color:#028ab6}
+main .board div .contents a .environment {color:#599100}
+main .board div .contents a .welfare {color:#d76000;}
+main .board div .contents a .housing {color:#c35c3c;}
+main .board div .contents a .culture {color:#9b64d3;}
+main .board div .contents a .economy {color:#069363;}
+/* main-4 게시판 이벤트신청, 행사축제 공통 내용 */
+main .board .event .contents,
+main .board .festival .contents {margin-top: 25px;}
+main .board .event .contents a,
+main .board .festival .contents a {
+    display:block; 
+    margin-bottom: 25px; 
+    overflow: hidden;
+}
+main .board .event .contents a:last-child,
+main .board .festival .contents a:last-child {margin-bottom: 0;}
+main .board .event .contents a span,
+main .board .festival .contents a span {}
+main .board .event .contents a span:first-child,
+main .board .festival .contents a span:first-child {
+    margin-right: 10px;
+    float:left;
+}
+main .board .event .contents a span:last-child,
+main .board .festival .contents a span:last-child {
+    background-color: wheat;
+    white-space:nowrap;  /* --> 줄바꿈 안되게 하는 것 */
+    text-overflow: ellipsis;  /* 영역밖에 있는것을 ... 말줄임 처리 */
+    overflow: hidden; /* 영역밖을 숨김처리 */
+    float: right; width:85%;
+}
+
+/* main-4 게시판 개별내용 */
+main .board .event .title {}
+main .board .event .title h2 {}
+main .board .event .title .more {}
+main .board .event .contents {}
+main .board .event .contents a {}
+main .board .event .contents a span {    
+}
+main .board .event .contents a .adminstrative {}
+main .board .event .contents a .environment {}
+main .board .event .contents a .welfare {}
+main .board .event .contents a .housing {}
+main .board .event .contents a .culture {}
+main .board .event .contents a .economy {}
+
+main .board .festival .title {}
+main .board .festival .title h2 {}
+main .board .festival .title .more {}
+main .board .festival .contents {}
+main .board .festival .contents a {}
+main .board .festival .contents a span {}
+main .board .festival .contents a .environment {}
+main .board .festival .contents a .ecomony {}
+main .board .festival .contents a .culture {}
+
+main .board .service .title {border:0;}
+main .board .service .title h2 {}
+main .board .service .contents {
+    background-color: #eff4f8;
+    overflow: hidden;
+    padding:13px;
+}
+main .board .service .contents a {
+    float:left; width:50%; text-align: left;
+    margin-bottom: 25px;
+}
+main .board .service .contents a:nth-last-child(2),
+main .board .service .contents a:last-child {
+    margin-bottom: 0;
+}
+/* main-5분야정보 */
+main .field_info {}
+main .field_info .title {}
+main .field_info .title h2 {}
+main .field_info .contents {
+    overflow: hidden;
+    padding:20px 40px;
+}
+main .field_info .contents a {
+    float:left;
+    text-align: center;
+    width:12.5%;  /* 100% 나누기 8개 컨텐츠 */
+
+}
+main .field_info .contents a img {}
+main .field_info .contents a span {
+    display:block;
+    letter-spacing: -0.02em;
+}
+/* main-6새소식 */
+main .news {}
+main .news .title {}
+main .news .title h2 {}
+main .news .title .more {}
+main .news .contents {
+    overflow: hidden;
+    padding:20px 0;
+}
+main .news .contents a {
+    width:25%; 
+    float:left;
+}
+main .news .contents a img {}
+main .news .contents a span {
+    display:block;
+    padding:10px 0 20px 0;
+    line-height: 23px; letter-spacing: -0.05em;
+}
+main .news .contents a:nth-of-type(5),
+main .news .contents a:last-child {margin-right: 0px} 
+footer {}
+/* footer-f top */
+footer .top {
+    border: 1px solid #aaa;
+    border-left:0; border-right: 0;
+    overflow: hidden;
+}
+footer .top .left {float:left;}
+footer .top .left a {}
+footer .top .right {float:right;}
+footer .top .right a {}
+footer .top .right a:first-child {
+    background:white url(../image/icon_sns2/icon_set_sns_01.png) no-repeat;
+    width:25px; height:25px;
+    display:inline-block; text-indent:-9999px; /* 화면밖 글자 내보내기 */
+}
+/* footer-f btm */
+footer .btm {}
+footer .btm .left {}
+footer .btm .left p {}
+footer .btm .left p img {}
+footer .btm .left address {}
+footer .btm .left address a {}
+footer .btm .right {}
+footer .btm .right a {}
+footer .btm .right a img {}
