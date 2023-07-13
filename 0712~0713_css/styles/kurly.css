@@ -1,0 +1,95 @@
+/* rgb(95 3 128) */
+/* 1050px */
+/* all layout */
+.top_bnr_bg .top_bnr,
+header {
+    margin:0 auto; width:1050px;
+}
+/* header-sprite 공통그룹선택자 */
+header .middle .logo h1,
+header .middle #searchfrm fieldset #search_btn,
+header .middle .lnb a,
+header .menu_btm .all_nav .menu {
+    background: url(../images/kurly_img/icon_set.png) no-repeat;
+            display: inline-block;
+            width:36px; height:36px;
+            text-indent: -9999px;
+}
+/* header */
+.top_bnr_bg {
+    background-color:rgb(95 3 128); height:42px;
+}
+.top_bnr_bg .top_bnr {
+    display:flex;
+    height:42px;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.top_bnr_bg .top_bnr .adver {color:#fff;}
+.top_bnr_bg .top_bnr .adver em {}
+.top_bnr_bg .top_bnr .close {
+    position:absolute; right:0;
+    color:#fff;
+}
+.top_bnr_bg .top_bnr .close .fa-xmark {}
+header {}
+header .user_lnb {
+    height:35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items:center;
+}
+header .user_lnb .join {}
+header .user_lnb .login {}
+header .user_lnb .customer_service {}
+header .middle {
+    height:63px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .middle .logo {
+    display: flex; flex-flow: row nowrap;
+
+}
+header .middle .logo h1 {background-position: 0 -158px;width:82px; height:42px;}
+header .middle .logo .market {}
+header .middle .logo .beauty {}
+header .middle #searchfrm {
+    width:350px;
+    border:2px solid rgb(95 3 128);
+    border-radius: 5px;
+    }
+header .middle #searchfrm fieldset {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;}
+header .middle #searchfrm fieldset input {}
+header .middle #searchfrm fieldset #search_btn {background-position: 0 -50px;
+}
+header .middle .lnb {}
+header .middle .lnb a {}
+header .middle .lnb .map {background-position: 0 -14px;}
+header .middle .lnb .like {background-position: 0 -122px;}
+header .middle .lnb .cart {background-position: 0 -86px;}
+header .menu_btm {
+    height:56px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .menu_btm .all_nav {}
+header .menu_btm .all_nav .menu {background-position: 0 0;
+    width:16px; height:14px;}
+header .menu_btm .all_nav span {}
+header nav {}
+header nav a {}
+header .delivery_info {}
+header .delivery_info em {}
+header .delivery_info em .fa-circle {font-size: 1px;}
+header .delivery_info span {}
